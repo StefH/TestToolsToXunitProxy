@@ -1,0 +1,44 @@
+﻿{
+    "version": "0.0.1",
+    "title": "TestToolsToXunitProxy",
+    "description": "Microsoft.VisualStudio.TestTools.UnitTesting to Xunit proxy",
+    "authors": [ "Stef Heyenrath" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "compilationOptions": {
+    },
+
+    "frameworks": {
+        "net20": {
+        },
+        "net35": {
+        },
+        "net4": {
+        },
+        "net45": {
+        },
+        "net452": {
+        },
+        "net451": {
+        },
+        "net461": {
+        },
+        "dnx452": {
+            "dependencies": {
+                "xunit": "2.1.0"
+            },
+            "frameworkAssemblies": {
+                "System.Runtime": ""
+            }
+        },
+        "dnxcore50": {
+            "dependencies": {
+                "System.Runtime.InteropServices": "4.0.21-beta-*",
+
+                "xunit": "2.1.0"
+            }
+        }
+    }
+}
