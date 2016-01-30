@@ -2,10 +2,15 @@
     "version": "0.0.1",
     "title": "TestToolsToXunitProxy",
     "description": "Microsoft.VisualStudio.TestTools.UnitTesting to Xunit proxy",
+    "summary": "Microsoft.VisualStudio.TestTools.UnitTesting to Xunit proxy",
+    "copyright": "Stef Heyenrath 2016",
     "authors": [ "Stef Heyenrath" ],
-    "tags": [ "" ],
-    "projectUrl": "",
-    "licenseUrl": "",
+    "tags": [ "UnitTesting", "Xunit" ],
+    "language": "c#",
+    "projectUrl": "https://github.com/StefH/TestToolsToXunitProxy",
+    "licenseUrl": "https://github.com/StefH/TestToolsToXunitProxy/blob/master/LICENSE",
+    "requireLicenseAcceptance": false,
+    "releaseNotes": "initial version",
 
     "compilationOptions": {
     },
