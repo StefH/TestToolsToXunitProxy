@@ -1,5 +1,5 @@
 ﻿{
-    "version": "0.0.1",
+    "version": "0.0.2",
     "title": "TestToolsToXunitProxy",
     "description": "Microsoft.VisualStudio.TestTools.UnitTesting to Xunit proxy",
     "summary": "Microsoft.VisualStudio.TestTools.UnitTesting to Xunit proxy",
@@ -10,7 +10,7 @@
     "projectUrl": "https://github.com/StefH/TestToolsToXunitProxy",
     "licenseUrl": "https://github.com/StefH/TestToolsToXunitProxy/blob/master/LICENSE",
     "requireLicenseAcceptance": false,
-    "releaseNotes": "initial version",
+    "releaseNotes": "Added Assert.IsNotNull(object value) method.",
 
     "compilationOptions": {
     },

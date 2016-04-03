@@ -5,7 +5,6 @@ namespace TestToolsToXunitProxy
     {
         public static void Fail(string message)
         {
-
             Xunit.Assert.True(false, message);
         }
 
@@ -22,6 +21,11 @@ namespace TestToolsToXunitProxy
         public static void IsNull(object value)
         {
             Xunit.Assert.Null(value);
+        }
+
+        public static void IsNotNull(object value)
+        {
+            Xunit.Assert.NotNull(value);
         }
 
         public static void AreEqual<T>(T expected, T actual)
