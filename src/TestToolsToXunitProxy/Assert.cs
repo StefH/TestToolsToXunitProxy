@@ -1,4 +1,4 @@
-﻿#if DNXCORE50 || DNX451 || DNX452 || NETSTANDARD || NETCOREAPP
+﻿#if NETSTANDARD || NETCOREAPP
 namespace TestToolsToXunitProxy
 {
     public static class Assert
